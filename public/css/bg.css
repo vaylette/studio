@@ -1,0 +1,101 @@
+/* 
+/* 
+	Section Background (bg.css)
+	
+	Table of Content
+	- general settings for section & subheader
+	- background settings for section
+	- media query
+/*
+
+
+/* background settings for section */
+
+#content{background-position:top center;}
+
+#section-hero {background:url(../images/background/a.jpg) fixed;}
+#section-process {background:url(../images/background/b.jpg) fixed;}
+#section-team {background:url(../images/background/a.jpg) fixed;}
+#section-services {background:url(../images/background/clap.jpg) fixed;}
+
+#section-contact.side-bg .background-image{background:url(../images/background/d.jpg);}
+
+
+#section-hero-3 {background:url(../images/background/a.jpg) fixed;}
+#section-hero-4 {background:url(../images/background/a.jpg) fixed;}
+#section-hero-2 {background:url(../images/background/a.jpg) top;}
+#section-hero-5 {background:url(../images/background/a.jpg) fixed;}
+#section-hero-6 {background:url(../images/background/a.jpg) fixed;}
+#section-hero-8 {background:url(../images/background/a.jpg) fixed;}
+#section-hero-9 {background:url(../images/background/a.jpg);}
+#section-15 {background:url(../images/background/a.jpg) top center;}
+#section-16 {background:url(../images/background/a.jpg) top center;}
+#section-17 {background:url(../images/background/a.jpg) top center;}
+#section-20 {background:url(../images/background/a.jpg) top center;}
+#section-experiences {background:url(../images/background/b.jpg) fixed;}
+#section-services.index-2 {background:url(../images/background/b.jpg) fixed;}
+#section-experiences.index-2 {background:url(../images/background/b.jpg) fixed;}
+#section-services.index-4 {background:url(../images/background/b.jpg) fixed;}
+#section-experiences.index-4 {background:url(../images/background/b.jpg) fixed;}
+#section-testimonial.index-4 {background:url(../images/background/b.jpg) fixed;}
+#section-services.index-5 {background:url(../images/background/b.jpg) fixed;}
+#section-experiences.index-5 {background:url(../images/background/b.jpg) fixed;}
+#section-services.index-6 {background:url(../images/background/b.jpg) fixed;}
+#section-experiences.index-6 {background:url(../images/background/b.jpg) fixed;}
+#section-contact.index-6 {background:url(../images/background/a.jpg) fixed;}
+#section-side-1 .image-container{background:url(../images/background/lenses.jpg);}
+#section-side-2 .image-container{background:url(../images/background/a.jpg);}
+#section-side-3 .image-container{background:url(../images/background/a.jpg);}
+#section-side-4 .image-container{background:url(../images/background/a.jpg);}
+#section-personal-contact.side-bg .background-image{background:url(../images/background/a.jpg);}
+#section-personal-contact.side-bg .background-image{background:url(../images/background/a.jpg);}
+
+
+#bg-login-4 {background:url(../images/background/a.jpg) top center;}
+#section-startup-pricing{background:url(../images/background/a.jpg) fixed;}
+#section-personal-1{background:url(../images/background/a.jpg) fixed;}
+#section-startup-counter{background:url(../images/background/a.jpg) center;}
+#section-startup-hero{background:url(../images/background/a.jpg) fixed;}
+#section-startup-download{background:url(../images/background/a.jpg) top center;}
+#section-startup-about{background:url(../images/background/a.jpg) center;}
+
+
+/* #subheader{background:url(../images/background/2.jpg);} */
+
+body.custom-bg-1{background:url(../images/background/none.jpg);
+-moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position:center center;
+    background-attachment:fixed;
+}
+
+/* media query */
+@media only screen and (min-device-width: 768) and (max-device-width: 1024) and (orientation: portrait){
+	section{
+	-webkit-background-size: auto 100%;
+	-moz-background-size: auto 100%;
+	-o-background-size: auto 100%;
+	background-size: auto 100%;
+	background-attachment:scroll;
+	}
+}
+@media only screen and (max-width: 992px) {
+	#subheader,section{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment:scroll;
+	}
+}
+@media only screen and (max-width: 480) {
+	section{
+	-webkit-background-size: auto 100% !important;
+	-moz-background-size: auto 100% !important;
+	-o-background-size: auto 100% !important;
+	background-size: auto 100% !important;
+	background-attachment:scroll !important;
+	}
+}

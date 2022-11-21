@@ -1,0 +1,17 @@
+
+  .buttons {
+    background-color: #666;
+    border: medium none;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    left: 0;
+    margin: 0 auto;
+    padding: 8px 16px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.buttons.active {
+    background-color: #0077a2;
+  }
