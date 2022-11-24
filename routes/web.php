@@ -29,8 +29,8 @@ Route::get('/services', function () {
     return view('services');
 });
 
-Route::get('/works', function () {
-    return view('gallery');
+Route::get('/gallery', function () {
+    return view('gallery1');
 });
 
 Route::get('/album', function () {

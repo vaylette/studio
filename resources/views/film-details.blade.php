@@ -21,9 +21,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2 text-center">
-                            <p>Filmmaking process is where the story described in a script is actualized with the filming of each scene depicted in it.
-                                    It’s the part of making movies that involves the use of Actors on location or 
-                                    on set whose performances of the action and dialogue dictated in the script are captured for later assemblage in post-production</p>
+                            <p>We at Smart Studio transform your ideas into reality.</p>
                           
                             </div>
 

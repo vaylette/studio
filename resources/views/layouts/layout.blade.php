@@ -83,7 +83,7 @@
                                 <li><a href="{{ asset('details')}}">Details</a></li>
                             </ul>-->
                         </li>
-                        <li><a href="{{ asset('works')}}">Works<span></span></a>
+                        <li><a href="{{ asset('gallery')}}">Portfolio<span></span></a>
                           <!--  <ul>
                                 <li><a href="{{ asset('album')}}"></a></li>
                                 <li><a href="{{ asset('gallery')}}">Gallery</a></li>

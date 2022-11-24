@@ -229,7 +229,7 @@
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="sequence">
-                                    <div class="col-md-4 col-sm-6 col-xs-6 sq-item wow">
+                                    <div class="col-md-3 col-sm-6 col-xs-6 sq-item wow">
                                         <div class="de_count">
                                             <div class="padding40" data-bgcolor="rgba(255,255,255,.1)">
                                                 <h3 class="timer" data-to="8240" data-speed="2500">0</h3>
@@ -238,16 +238,16 @@
                                         </div>
                                     </div>
 
-                                    <div class="col-md-4 col-sm-6 col-xs-6 sq-item wow">
+                                    <div class="col-md-3 col-sm-6 col-xs-6 sq-item wow">
                                         <div class="de_count">
                                             <div class="padding40" data-bgcolor="rgba(255,255,255,.1)">
-                                                <h3 class="timer" data-to="315">0</h3>
+                                                <h3 class="timer" data-to="135">0</h3>
                                                 <span>Projects Done</span>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-md-4 col-sm-6 col-xs-6 sq-item wow" data-wow-delay=".5s">
+                                    <div class="col-md-3 col-sm-6 col-xs-6 sq-item wow" data-wow-delay=".5s">
                                         <div class="de_count">
                                             <div class="padding40" data-bgcolor="rgba(255,255,255,.1)">
                                                 <h3 class="timer" data-to="250">0</h3>
@@ -256,7 +256,15 @@
                                         </div>
                                     </div>
 
-                                  
+                                    <div class="col-md-3 col-sm-6 col-xs-6 sq-item wow">
+                                        <div class="de_count">
+                                            <div class="padding40" data-bgcolor="rgba(255,255,255,.1)">
+                                                <h3 class="timer" data-to="32">0</h3>
+                                                <span>Successful Cases</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 </div>
                             </div>
                         </div>

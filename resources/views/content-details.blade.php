@@ -10,7 +10,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h1>Wedding Photography</h1>
+                                <h1>Content creation</h1>
                             </div>
                         </div>
                     </div>
@@ -21,9 +21,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-8 col-md-offset-2 text-center">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                                    laborum.</p>
+                                <p>We produce content for television, social media,
+                                     corporate promotions, commercial or other media-related fields.</p>
                             </div>
 
                             <div class="spacer-single"></div>
@@ -31,7 +30,7 @@
                             <div class="col-md-4">
                                 <a href="#" class="f_box s3">
 								<span class="f_cap_wrap">
-									<span class="f_cap"><span class="h4">Wedding Day<span class="underline"></span></span>
+									<span class="f_cap"><span class="h4">BTS<span class="underline"></span></span>
 									</span>
 								</span>
 								<span class="f_bg"></span>
@@ -42,7 +41,7 @@
                             <div class="col-md-4">
                                 <a href="#" class="f_box s3">
 								<span class="f_cap_wrap">
-									<span class="f_cap"><span class="h4">Pre Wedding<span class="underline"></span></span>
+									<span class="f_cap"><span class="h4">Commercials<span class="underline"></span></span>
 									</span>
 								</span>
 								<span class="f_bg"></span>
@@ -53,7 +52,7 @@
                             <div class="col-md-4">
                                 <a href="#" class="f_box s3">
 								<span class="f_cap_wrap">
-									<span class="f_cap"><span class="h4">Honeymoon<span class="underline"></span></span>
+									<span class="f_cap"><span class="h4">Smart Reels<span class="underline"></span></span>
 									</span>
 								</span>
 								<span class="f_bg"></span>
