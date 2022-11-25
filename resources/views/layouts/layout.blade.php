@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
     <title>Smart Studio</title>
     <link rel="shortcut icon" href="images/logo.png" type="image/png">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
