@@ -26,7 +26,7 @@
   <div class="container">
   <div class="row">
     
-    <!-- <div class="column col-md-4 photos">
+    <div class="column col-md-4 photos">
       <div class="content">
 
       <img src="/images/services/b.jpg" alt="Lights">
@@ -40,17 +40,25 @@
       <img src="/images/services/c.jpg" alt="Nature">
        
       </div>
-    </div> -->
-    <div class="video-container">
+    </div>
+
+    <div class="column col-md-4 videos">
+      <div class="content">
+     
+      <img src="/images/services/c.jpg" alt="Nature">
+       
+      </div>
+    </div>
+    <!-- <div class="video-container">
     <div class="column col-md-4 animations videos">
       <div class="content">
       <button class="active"></button>
         <div class="video"> <video src="video/2.mp4" muted></video></div>
      
       </div>
-    </div>
+    </div> -->
 
-                                  <script>
+                                  <!-- <script>
                                     document.querySelectorAll('.video-container video').forEach(vid => {
                                     
                                       vid.onclick = () => {
@@ -63,7 +71,7 @@
                                     document.querySelector('.pop-upvideo span').onclick = () =>{
                                       document.querySelector('.pop-upvideo').style.display = 'none';
                                     }
-                                  </script>
+                                  </script> -->
 
                     <!-- Button script -->
                     <script>

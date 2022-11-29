@@ -5,8 +5,9 @@
 <div id="content" class="no-top no-bottom" data-bgimage="url(images/background/backgrounds.jpg)" data-stellar-background-ratio=".2">
             <div class="overlay-bg t50 no-bottom">
                 <!-- subheader -->
+            <div class="part">
                 <section id="subheader" class="dark no-top no-bottom">
-    <div class="container">
+    
                         <div class="row">
                             <div class="col-md-12">
                                 <h1>About Us</h1>
@@ -31,14 +32,10 @@
                         <div class="col-md-6">
                             <p><h3>Vision</h3>
                                 To collaborate with content creators and corporate partners and grow their brands, through storytelling and engaging targeted audiences.</p>
-
+                                </div>
+                                <div class="col-md-6">
                             <p><h3>Mission</h3>
                                  Conceptualize, Strategize, Collaborate and Create.</p></div></div>
-                            <div class="spacer-single"></div>
-
-                               
-
-                            <div class="spacer-single"></div>
 
                             <div class="sequence">
                                 <div class="col-md-3 col-sm-6 col-xs-6 sq-item wow">

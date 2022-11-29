@@ -16,93 +16,103 @@
                 <!-- subheader close -->
 
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<div id="subheader" class="button">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('corporates')"> Corporates</button>
+      <button class="btn" onclick="filterSelection('potraits')"> Potraits</button>
+      <button class="btn" onclick="filterSelection('activities')"> Activities</button>
+    </div>
+	
 <section>
 <div class="gallery">
 	
 	<div class="gallery__column">
-		<a href="#" target="_blank" class="gallery__link">
-			<figure class="gallery__thumb">
-				<img src="https://source.unsplash.com/Xm9-vA_bhm0/300x500" alt="" class="gallery__image">
+			<figure class="gallery__thumb filter corporates">
+				<img src="images/slider/a.jpg" alt="" class="gallery__image">
 			</figure>
-		</a>
 		
 		<a href="#" target="_blank" class="gallery__link">
-			<figure class="gallery__thumb">
-				<img src="https://source.unsplash.com/NTjSR3zYpsY/300x300" alt="" class="gallery__image">
+			<figure class="gallery__thumb filter corporates">
+				<img src="images/slider/a.jpg" alt="" class="gallery__image">
 			</figure>
 		</a>
 
 		<a href="#" target="_blank" class="gallery__link">
-			<figure class="gallery__thumb">
-				<img src="https://source.unsplash.com/2JH8d3ChNec/300x300" alt="" class="gallery__image">
+			<figure class="gallery__thumb filter potraits">
+				<img src="images/slider/a.jpg" alt="" class="gallery__image">
 			</figure>
 		</a>
 	</div>
 	
 	<div class="gallery__column">
 		<a href="#" target="_blank" class="gallery__link">
-			<figure class="gallery__thumb">
-				<img src="https://source.unsplash.com/FQhLLehm4dk/300x300" alt="" class="gallery__image">
+			<figure class="gallery__thumb filter activities">
+				<img src="images/slider/b.jpg" alt="" class="gallery__image">
 			</figure>
 		</a>
 
 		<a href="#" target="_blank" class="gallery__link">
-			<figure class="gallery__thumb">
-				<img src="https://source.unsplash.com/OQd9zONSx7s/300x300" alt="" class="gallery__image">
+			<figure class="gallery__thumb filter corporates">
+				<img src="images/slider/b.jpg" alt="" class="gallery__image">
 			</figure>
 		</a>
 		<a href="#" target="_blank" class="gallery__link">
-			<figure class="gallery__thumb">
-				<img src="https://source.unsplash.com/FQhLLehm4dk/300x300" alt="" class="gallery__image">
+			<figure class="gallery__thumb filter potraits">
+				<img src="images/slider/b.jpg" alt="" class="gallery__image">
 			</figure>
 		</a>
 
 		<a href="#" target="_blank" class="gallery__link">
-			<figure class="gallery__thumb">
-				<img src="https://source.unsplash.com/XZkEhowjx8k/300x500" alt="" class="gallery__image">
+			<figure class="gallery__thumb filter activities">
+				<img src="images/slider/c.jpg" alt="" class="gallery__image">
 			</figure>
 		</a>
 	</div>
 	
 	<div class="gallery__column">
 		<a href="#" target="_blank" class="gallery__link">
-			<figure class="gallery__thumb">
-				<img src="https://source.unsplash.com/Xm9-vA_bhm0/300x500" alt="" class="gallery__image">
+			<figure class="gallery__thumb filter potriats">
+				<img src="d" alt="" class="gallery__image">
 			</figure>
 		</a>
 		
 		<a href="#" target="_blank" class="gallery__link">
-			<figure class="gallery__thumb">
-				<img src="https://source.unsplash.com/NTjSR3zYpsY/300x300" alt="" class="gallery__image">
+			<figure class="gallery__thumb filter corporates">
+				<img src="images/slider/b.jpg" alt="" class="gallery__image">
 			</figure>
 		</a>
 
 		<a href="#" target="_blank" class="gallery__link">
-			<figure class="gallery__thumb">
-				<img src="https://source.unsplash.com/2JH8d3ChNec/300x300" alt="" class="gallery__image">
+			<figure class="gallery__thumb filter activities">
+				<img src="images/slider/c.jpg" alt="" class="gallery__image">
 			</figure>
 		</a>
 	</div>
 	
 	<div class="gallery__column">
 		<a href="#" target="_blank" class="gallery__link">
-			<figure class="gallery__thumb">
-				<img src="https://source.unsplash.com/FQhLLehm4dk/300x300" alt="" class="gallery__image">
+			<figure class="gallery__thumb filter potriats">
+				<img src="images/slider/e.jpg" alt="" class="gallery__image">
 			</figure>
 		</a>
 
 		<a href="#" target="_blank" class="gallery__link">
-			<figure class="gallery__thumb">
-				<img src="https://source.unsplash.com/OQd9zONSx7s/300x300" alt="" class="gallery__image">
+			<figure class="gallery__thumb filter corporates">
+				<img src="images/slider/b.jpg" alt="" class="gallery__image">
 			</figure>
 		</a>
 		
 		<a href="#" target="_blank" class="gallery__link">
-			<figure class="gallery__thumb">
-				<img src="https://source.unsplash.com/XZkEhowjx8k/300x500" alt="" class="gallery__image">
+			<figure class="gallery__thumb filter potraits">
+				<img src="images/slider/d.jpg" alt="" class="gallery__image">
 			</figure>
 		</a>
 	</div>
 </div>
 </section>
+
+<script src="{{ asset('js/scripts.js') }}"></script>
+
+
     @endsection

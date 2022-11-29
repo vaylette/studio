@@ -1348,90 +1348,90 @@
 	 
 	 
 	 // scroll
-		jQuery.scrollSpeed = function(step, speed, easing) {
+	// 	jQuery.scrollSpeed = function(step, speed, easing) {
         
-        var $document = $(document),
-            $window = $(window),
-            $body = $('html, body'),
-            option = easing || 'default',
-            root = 0,
-            scroll = false,
-            scrollY,
-            scrollX,
-            view;
+    //     var $document = $(document),
+    //         $window = $(window),
+    //         $body = $('html, body'),
+    //         option = easing || 'default',
+    //         root = 0,
+    //         scroll = false,
+    //         scrollY,
+    //         scrollX,
+    //         view;
             
-        if (window.navigator.msPointerEnabled)
+    //     if (window.navigator.msPointerEnabled)
         
-            return false;
+    //         return false;
             
-        $window.on('mousewheel DOMMouseScroll', function(e) {
+    //     $window.on('mousewheel DOMMouseScroll', function(e) {
             
-            var deltaY = e.originalEvent.wheelDeltaY,
-                detail = e.originalEvent.detail;
-                scrollY = $document.height() > $window.height();
-                scrollX = $document.width() > $window.width();
-                scroll = true;
+    //         var deltaY = e.originalEvent.wheelDeltaY,
+    //             detail = e.originalEvent.detail;
+    //             scrollY = $document.height() > $window.height();
+    //             scrollX = $document.width() > $window.width();
+    //             scroll = true;
             
-            if (scrollY) {
+    //         if (scrollY) {
                 
-                view = $window.height();
+    //             view = $window.height();
                     
-                if (deltaY < 0 || detail > 0)
+    //             if (deltaY < 0 || detail > 0)
             
-                    root = (root + view) >= $document.height() ? root : root += step;
+    //                 root = (root + view) >= $document.height() ? root : root += step;
                 
-                if (deltaY > 0 || detail < 0)
+    //             if (deltaY > 0 || detail < 0)
             
-                    root = root <= 0 ? 0 : root -= step;
+    //                 root = root <= 0 ? 0 : root -= step;
                 
-                $body.stop().animate({
+    //             $body.stop().animate({
             
-                    scrollTop: root
+    //                 scrollTop: root
                 
-                }, speed, option, function() {
+    //             }, speed, option, function() {
             
-                    scroll = false;
+    //                 scroll = false;
                 
-                });
-            }
+    //             });
+    //         }
             
-            if (scrollX) {
+    //         if (scrollX) {
                 
-                view = $window.width();
+    //             view = $window.width();
                     
-                if (deltaY < 0 || detail > 0)
+    //             if (deltaY < 0 || detail > 0)
             
-                    root = (root + view) >= $document.width() ? root : root += step;
+    //                 root = (root + view) >= $document.width() ? root : root += step;
                 
-                if (deltaY > 0 || detail < 0)
+    //             if (deltaY > 0 || detail < 0)
             
-                    root = root <= 0 ? 0 : root -= step;
+    //                 root = root <= 0 ? 0 : root -= step;
                 
-                $body.stop().animate({
+    //             $body.stop().animate({
             
-                    scrollLeft: root
+    //                 scrollLeft: root
                 
-                }, speed, option, function() {
+    //             }, speed, option, function() {
             
-                    scroll = false;
+    //                 scroll = false;
                 
-                });
-            }
+    //             });
+    //         }
             
-            return false;
+    //         return false;
             
-        }).on('scroll', function() {
+    //     }).on('scroll', function() {
             
-            if (scrollY && !scroll) root = $window.scrollTop();
-            if (scrollX && !scroll) root = $window.scrollLeft();
+    //         if (scrollY && !scroll) root = $window.scrollTop();
+    //         if (scrollX && !scroll) root = $window.scrollLeft();
             
-        }).on('resize', function() {
+    //     }).on('resize', function() {
             
-            if (scrollY && !scroll) view = $window.height();
-            if (scrollX && !scroll) view = $window.width();
+    //         if (scrollY && !scroll) view = $window.height();
+    //         if (scrollX && !scroll) view = $window.width();
             
-        });       
-    };
+    //     });       
+    // };
 	
 	
 	// scroll
@@ -1447,5 +1447,5 @@
 		 // hide preloader after loaded
          jQuery('#preloader').delay(500).fadeOut(500);
 		 window.dispatchEvent(new Event('resize')); 
-		jQuery.scrollSpeed(300, 1800);
+		jQuery.scrollSpeed(90, 900);
 });

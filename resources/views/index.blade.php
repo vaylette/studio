@@ -4,7 +4,7 @@
 
         <!-- content begin -->
         <div id="content" class="no-bottom no-top">
-            <div id="top"></div>
+            <div id=""></div>
 
             <!-- revolution slider begin -->
             <section id="section-slider" class="fullwidthbanner-container" aria-label="section-slider">
@@ -12,7 +12,7 @@
                     <ul>
                         <li data-transition="fade" data-slotamount="10" data-masterspeed="default" data-thumb="">
                             <!--  BACKGROUND IMAGE -->
-                            <img src="images/slider/6.jpg" alt="" data-lazyload="images/slider/video.jpg" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Power1.easeOut" data-scalestart="120" data-scaleend="100" data-rotatestart="0" data-rotateend="0"
+                            <img src="images/slider/6.jpg" alt="" data-lazyload="images/slider/video.jpg" data-bgposition="center center" data-kenburns="on" data-duration="3000" data-ease="Power1.easeOut" data-scalestart="120" data-scaleend="100" data-rotatestart="0" data-rotateend="0"
                                 data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina data-bgparallax="15">
 
                             <div class="tp-caption big-s1 fadeOut" data-x="left" data-y="230" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;" data-start="500"
@@ -34,7 +34,7 @@
 
                         <li data-transition="fade" data-slotamount="10" data-masterspeed="default" data-thumb="">
                             <!--  BACKGROUND IMAGE -->
-                            <img src="images/slider/6.jpg" alt="" data-lazyload="images/slider/3.jpg" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Power1.easeOut" data-scalestart="120" data-scaleend="100" data-rotatestart="0" data-rotateend="0"
+                            <img src="images/slider/6.jpg" alt="" data-lazyload="images/slider/3.jpg" data-bgposition="center center" data-kenburns="on" data-duration="3000" data-ease="Power1.easeOut" data-scalestart="120" data-scaleend="100" data-rotatestart="0" data-rotateend="0"
                                 data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina data-bgparallax="15">
 
                             <div class="tp-caption big-s1 fadeOut" data-x="right" data-y="230" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;" data-start="500"
@@ -57,7 +57,7 @@
                        
                         <li data-transition="fade" data-slotamount="10" data-masterspeed="default" data-thumb="">
                             <!--  BACKGROUND IMAGE -->
-                            <img src="images/slider/6.jpg" alt="" data-lazyload="images/slider/dd.jpg" data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Power1.easeOut" data-scalestart="120" data-scaleend="100" data-rotatestart="0" data-rotateend="0"
+                            <img src="images/slider/6.jpg" alt="" data-lazyload="images/slider/dd.jpg" data-bgposition="center center" data-kenburns="on" data-duration="3000" data-ease="Power1.easeOut" data-scalestart="120" data-scaleend="100" data-rotatestart="0" data-rotateend="0"
                                 data-offsetstart="0 0" data-offsetend="0 0" class="rev-slidebg" data-no-retina data-bgparallax="15">
 
                             <div class="tp-caption big-s1 fadeOut" data-x="left" data-y="230" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:200;e:Power2.easeInOut;" data-start="500"
@@ -116,7 +116,7 @@
 
                             <div class="tp-caption tp-wrap" data-x="left" data-y="320" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_in="y:100px;opacity:0;s:500;e:Power2.easeOut;" data-transform_out="opacity:0;y:-100;s:600;e:Power2.easeInOut;" data-start="700">
                                 <div class="tp-wrap">
-                                  Capturing Activities and Events Happening on our daily life
+                                  Capturing Activities and Events Happening in our daily life
                                 </div>
                             </div>
 
@@ -224,7 +224,7 @@
             <!-- section service close -->
 
             <section class="no-top no-bottom" aria-label="section" data-bgimage="url(images/.jpg)" data-stellar-background-ratio=".2">
-                <div class="overlay-bg no-top no-bottom t50">
+                <div class="no-top no-bottom t50">
                     <div class="padding30">
                         <div class="container-fluid">
                             <div class="row">
@@ -307,7 +307,7 @@
                  <script src="{{ asset('js/js.js') }}" type="text/javascript"></script>
 
             <section class="no-top no-bottom" aria-label="section">
-                <a href="{{ asset('services') }}" class="f_box s3">
+                <a href="{{ asset('contact-us') }}" class="f_box s3">
 					<span class="f_cap_wrap">
 						<span class="f_cap">
 							<span class="h4">Hire Us For Your Next Project<span class="underline"></span></span>

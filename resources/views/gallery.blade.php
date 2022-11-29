@@ -17,6 +17,12 @@
                     </div>
                 </section>
                 <!-- subheader close -->
+                <div id="subheader" class="button">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('Corporates')"> Photos</button>
+      <button class="btn" onclick="filterSelection('Potraits')"> Videos</button>
+      <button class="btn" onclick="filterSelection('Activities')"> Animations</button>
+    </div>
 
                 <section aria-label="section-services">
                     <div class="container">
@@ -25,7 +31,7 @@
                                 <div id="gallery" class="gallery full-gallery de-gallery pf_full_width pf_3_cols row sequence">
 
                                     <!-- gallery item -->
-                                    <div class="item gallery-item col-md-4 mb30">
+                                    <div class="item gallery-item col-md-4 mb30 corporates">
                                         <div class="picframe wow">
                                             <a class="image-popup" href="images/gallery/a(1).jpg">
 											<span class="overlay">

@@ -18,7 +18,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/video', function () {
+Route::get('/videos', function () {
     return view('index-video');
 });
 Route::get('/about', function () {
@@ -29,7 +29,7 @@ Route::get('/services', function () {
     return view('services');
 });
 
-Route::get('/gallery', function () {
+Route::get('/gallery1', function () {
     return view('gallery1');
 });
 
@@ -75,6 +75,10 @@ Route::get('/content-details', function () {
 
 Route::get('/animation-details', function () {
     return view('animation-details');
+});
+
+Route::get('/filter', function () {
+    return view('filter');
 });
 
 Route::post('/uploadVideo', 'VideoController@uploadVideo', 

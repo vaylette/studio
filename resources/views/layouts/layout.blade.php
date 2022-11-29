@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
     <title>Smart Studio</title>
-    <link rel="shortcut icon" href="images/logo.png" type="image/png">  
+    <link rel="shortcut icon" href="images/titlelogo.png" type="image/png">  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="agency, business, clean, creative, fullscreen, fullscreen photography, fullscreen portfolio, gallery, photo, photographer, photography, photography theme, portfolio, responsive">
     <meta name="author" content="">
@@ -84,7 +84,7 @@
                                 <li><a href="{{ asset('details')}}">Details</a></li>
                             </ul>-->
                         </li>
-                        <li><a href="{{ asset('gallery')}}">Portfolio<span></span></a>
+                        <li><a href="{{ asset('gallery1')}}">Portfolio<span></span></a>
                           <!--  <ul>
                                 <li><a href="{{ asset('album')}}"></a></li>
                                 <li><a href="{{ asset('gallery')}}">Gallery</a></li>

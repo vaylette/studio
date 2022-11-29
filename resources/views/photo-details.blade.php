@@ -16,6 +16,7 @@
                     </div>
                 </section>
                 <!-- subheader close -->
+                <div class="spacer-single"></div>
 
                 <section aria-label="section-services">
                     <div class="container">
@@ -26,6 +27,8 @@
 							    </p>
                             </div>
 
+                            <div class="spacer-single"></div>
+                            <div class="spacer-single"></div>
                             <div class="spacer-single"></div>
 
                             <div class="col-md-4">
